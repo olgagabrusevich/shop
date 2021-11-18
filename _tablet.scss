@@ -1,0 +1,48 @@
+@media(max-width: 1023px){
+    // Стили для планшета
+    .center{
+        padding-left: calc(50%-401px);
+        padding-right: calc(50%-401px);
+    }
+    .for-item{
+        height: 266px;
+    }
+    //footer
+    .logo{
+        display: none;
+    }
+    .footer-title{
+        width: 126px;
+    }
+
+    //Корзина
+    .for-grid-cart{
+        grid-template-columns: repeat(8,1fr);
+        .for-item-cart{
+            grid-column: 1 /-1;
+        } 
+    } 
+    .button-for-item-cart{
+        margin-bottom: 32px;
+    }
+
+}
+@media(min-width: 768px)and (max-width: 833px){
+    .center{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .product{
+        width: 345px;
+    }
+
+    .product-content{
+        justify-content: flex-start;
+        gap: 30px;
+    }
+
+}
+
+
+
